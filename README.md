@@ -2,7 +2,7 @@
 ![ASP.NET](https://img.shields.io/badge/ASP.NET-Core-blue)
 ![CSharp](https://img.shields.io/badge/C%23-Language-green)
 
-![V-Travel Logo](./logo.png)
+![V-Travel Logo](./assets/images/logo.png)
 
 **V-Travel** is a web application that allows users to **book travel tickets** to visit various beautiful cities in **Palestine**.  
 Built with **ASP.NET** and **C#**, V-Travel provides a smooth and elegant booking experience with a black and orange theme.
