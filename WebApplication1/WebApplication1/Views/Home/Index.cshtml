@@ -1,0 +1,431 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="~/css/styles.css" rel="stylesheet" />
+        
+    </head>
+    <body >
+      
+   
+
+    
+    <!-- START HEADER DESIGN AREA -->
+    <section class="welcome-image-area" data-stellar-background-ratio="0.6" style="background-position: 0% 0px;">
+        <div id="home" class="welcome-area" >
+            <div class="header-top-area">
+                <div class="container" style="background-color:black">
+                    <div class="navbar navbar-expand-lg ">
+                    <div class="row" >
+                        <div class="col-md-3">
+                            <!-- START LOGO DESIGN AREA -->
+                            <div >
+                            <a asp-controller="Home" asp-action="Index"><img src="~/assets/images/logo.png" alt="Travel Company" /></a>
+                            </div>
+                            <!-- END LOGO DESIGN AREA -->
+                        </div>
+                        <div class="col-md-9 mainmenu justify-content-end">
+                        
+                            <ul class="nav justify-content-end navbar-nav  ">
+                                <li class="nav-item">
+                                  <a class="nav-link active"  href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#place">Places</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#About">About</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#gallery">gallery</a>
+                                </li>
+                                
+                              </ul>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="display-table">
+            <div class="display-table-cell">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="header-text text-center">
+                                <h1>Enjoy vacation with <span>v-travel</span></h1>
+                                <p>Travel to the any corner of the world, without going around in circles.</p>
+                                <a asp-controller="Home" asp-action="Tours">Tours available</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END HEADER DESIGN AREA -->
+
+   
+    
+    <!-- START TOUR PLACE DESIGN AREA -->
+    <div id="place" class="responsive">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title">
+                        <h2>popular tour places</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+            <div class="row" >
+        <div class="places col-4">
+          <a target="_blank" href="~/assets/images/Jerusalem.jpg">
+            <img src="~/assets/images/Jerusalem.jpg" alt="Jerusalem">
+          </a>
+          <div class="desc">
+            <h2>the dom of the rock</h2>
+            <h3>jerusalem</h3>
+            <h4>$600<span>  <strike>$900</strike></span></h4>
+        </div>
+        </div>
+      
+      
+        <div class="places col-4">
+          <a target="_blank" href="~/assets/images/Bethlehem.jpg">
+            <img src="~/assets/images/Bethlehem.jpg" alt="Bethlehem">
+          </a>
+          <div class="desc">
+            <h2>Church of the Nativity</h2>
+            <h3>bethlehem</h3>
+            <h4>$500<span>  <strike>$700</strike></span></h4>
+          </div>
+        </div>
+      
+        <div class="places col-4">
+          <a target="_blank" href="~/assets/images/wadi.jpg">
+            <img src="~/assets/images/wadi.jpg" alt="wadi">
+          </a>
+          <div class="desc">
+            <h2>wadi al-qalt</h2>
+            <h3>jericho</h3>
+            <h4>$800<span>  <strike>$1000</strike></span></h4>
+          </div>
+        </div>
+      </div>
+            </div>
+        </div>
+      
+      <div class="clearfix"></div>
+    
+
+   
+    <!-- / END  TOUR PLACE DESIGN AREA -->
+    
+    
+    
+    
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="About" class="about-us-area section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h2>who we are?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START ABOUT IMAGE DESIGN AREA -->
+                <div class="col-md-6 wow fadeInLeft" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                    <div class="about-image">
+                        <img src="~/assets/images/about.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+                <!-- / END ABOUT IMAGE DESIGN AREA -->
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h2 class="wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">We are Travel experts</h2>
+                        <p class="wow fadeInDown" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose.</p>
+                    
+                    </div>
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+    
+    <!-- START SERVICE DESIGN AREA -->
+    <section id="service" class="service-area section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa fa-bookmark" aria-hidden="true"></i>
+                        </div>
+                        <h4>Personalized matching</h4>
+                        <p>Our goal is to save you time and effort by taking the guesswork out of finding the right options for your travel needs.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa fa-cubes" aria-hidden="true"></i>
+                        </div>
+                        <h4>wide variety of destinations</h4>
+                        <p>
+                            We understand that everyone has unique travel aspirations, and we strive to provide a range of options to suit different tastes and desires.
+
+                        </p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa fa-archive" aria-hidden="true"></i>
+                        </div>
+                        <h4>highly qualified service</h4>
+                        <p>We understand that exceptional service is a key component of any successful business, and we strive to exceed your expectations in every interaction. </p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay=".8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        </div>
+                        <h4>Handpicked Hotels</h4>
+                        <p>Our Handpicked Hotels feature is a testament to our dedication in providing you with exceptional accommodation options.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="1s" style="visibility: visible; animation-delay: 1s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa-solid fa-umbrella"></i>
+                        </div>
+                        <h4>Best Price Guarantee</h4>
+                        <p>Our Best Price Guarantee is our commitment to offering you the most competitive prices in the market and to not make regret your choices !</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+                <!-- START SINGLE SERVICE DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInDown" data-wow-delay="1.2s" style="visibility: visible; animation-delay: 1.2s; animation-name: fadeInDown;">
+                    <div class="single-service">
+                        <div class="service-icon"><i class="fa fa-users" aria-hidden="true"></i>
+                        </div>
+                        <h4>24/7 support</h4>
+                        <p>The 24/7 feature is designed to ensure that our services are available to you round the clock, 
+                            without any interruption.</p>
+                    </div>
+                </div>
+                <!-- / END SINGLE SERVICE DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICE DESIGN AREA -->
+    
+    
+    
+    <!-- VIDEO BACKGROUND DESIGN AREA -->
+    <section class="video-area" data-stellar-background-ratio="0.6" style="background-position: 0% -898.588px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="video-area-text text-center wow bounceIn" style="visibility: visible; animation-name: bounceIn;">
+                        <a href="https://www.youtube.com/watch?v=L-Fzan-VWO0" class="video-play mfp-iframe">
+                            <i class="fa fa-play"></i>
+                        </a>
+                        <h2>Travelling Highlights</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END VIDEO BACKGROUND DESIGN AREA -->
+    
+    <!-- START PLACE DESIGN AREA -->
+    <section id="gallery" class="work section-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h2>tour gallery</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/1.png" class="work-popup">
+                            <img src="~/assets/images/work/1.png" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                        Jerusalem
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6 ">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/2.jpeg" class="work-popup">
+                            <img src="~/assets/images/work/2.jpeg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                        Jerusalem
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/3.jpg" class="work-popup">
+                            <img src="~/assets/images/work/3.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                       Jericho
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/4.jpg" class="work-popup">
+                            <img src="~/assets/images/work/4.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                        Jericho
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/5.jpg" class="work-popup">
+                            <img src="~/assets/images/work/5.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                        Bethlehem
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+                <!-- START SINGLE WORK DESIGN AREA -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="project-item">
+                        <a href="~/assets/images/work/6.jpg" class="work-popup">
+                            <img src="~/assets/images/work/6.jpg" class="img-responsive" alt="">
+                            <div class="project-overlay">
+                                <div class="project-info">
+                                    <h2 class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                                        Bethlehem
+                                    </h2>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- END SINGLE WORK DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END PLACE WORK DESIGN AREA -->
+    
+    <!-- START CALL TO ACTION DESIGN AREA -->
+    <section id="download" class="call-to-area" data-stellar-background-ratio="0.6" style="background-position: 0% -1999.58px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="call-to-area-text text-center">
+                        <h2>are you still intarested to tour?</h2>
+                        <p>We offer a wide range of procedures to help you get the perfect smile</p>
+                        <a asp-controller="Home" asp-action="Tours">Tours available</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END CALL TO ACTION DESIGN AREA -->
+    
+    
+    
+   
+   <!-- START FOOTER DESIGN AREA -->
+   <footer class="footer-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="footer-text">
+                    <h6>©copyright | V-travel 2023</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- / END CONTACT DETAILS DESIGN AREA -->
+    
+    <!-- START SCROOL UP DESIGN AREA -->
+    <div class="scroll-to-up">
+        <div class="scrollup" style="display: none;">
+            <span class="lnr lnr-chevron-up"></span>
+        </div>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    
+    
+    
+<!-- BOOTSTRAP JS -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/5f34a0d3e4.js" crossorigin="anonymous"></script>
+
+</body>
+</html>    
